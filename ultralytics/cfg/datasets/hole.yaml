@@ -1,0 +1,8 @@
+# Paths to images and labels using the new labels5BiaoQian txt files
+train:  # train dataset paths
+val:     # val dataset paths
+test:   # test dataset paths (optional)
+
+# Number of classes and class names
+nc: 2  # Number of classes
+names: ['nohole', 'hole']  # Class names
