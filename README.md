@@ -4,19 +4,7 @@ This repository contains the improved YOLO-based object detection framework **CI
 
 ## 📁 Project Structure
 
-CIS-YOLO/
-├── data/
-│ ├── images/
-│ │ └── test/
-│ └── labels/
-│ └── test/
-├── ultralytics/
-│ └── nn/
-│ └── Addmodule/ # Custom modules (e.g., DDF, iEMA)
-├── CIS-YOLO.pt # Trained model weights (our improved model)
-├── YOLOv11N.pt # Baseline YOLOv11N model weights
-├── test.py # Script to run inference and evaluation
-└── README.md # Project description
+<pre><code>```text CIS-YOLO/ ├── data/ │ ├── images/ │ │ └── test/ │ └── labels/ │ └── test/ ├── ultralytics/ │ └── nn/ │ └── Addmodule/ # Custom modules (e.g., DDF, iEMA) ├── CIS-YOLO.pt # Trained model weights (our improved model) ├── YOLOv11N.pt # Baseline YOLOv11N model weights ├── test.py # Script to run inference and evaluation └── README.md # Project description ```</code></pre>
 
 markdown
 Copy
