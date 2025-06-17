@@ -57,7 +57,6 @@ Each image has a corresponding label file with bounding box annotations.
 📦 Notes
 The ultralytics/nn/Addmodule directory contains your custom modules. They are integrated into tasks.py and automatically loaded during model construction.
 
-Make sure einops and timm are installed, as they are required by your modules.
 
 📜 License
 This project is for academic and research use only.
