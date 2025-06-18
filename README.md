@@ -2,13 +2,24 @@
 
 This repository contains the improved YOLO-based object detection framework **CIS‑YOLO**, specifically tailored for detecting rubber tree planting pits from UAV imagery.
 
-## 📁 Project Structure
+## 📂 CIS-YOLO Project Structure
 
-<pre><code>```text CIS-YOLO/ ├── data/ │ ├── images/ │ │ └── test/ │ └── labels/ │ └── test/ ├── ultralytics/ │ └── nn/ │ └── Addmodule/ # Custom modules (e.g., DDF, iEMA) ├── CIS-YOLO.pt # Trained model weights (our improved model) ├── YOLOv11N.pt # Baseline YOLOv11N model weights ├── test.py # Script to run inference and evaluation └── README.md # Project description ```</code></pre>
+```text
+CIS-YOLO/
+├── data/
+│   ├── images/
+│   │   └── test/
+│   └── labels/
+│       └── test/
+├── ultralytics/
+│   └── nn/
+│       └── Addmodule/          # Custom modules (e.g., DDF, iEMA)
+├── CIS-YOLO.pt                 # Trained model weights (our improved model)
+├── YOLOv11N.pt                 # Baseline YOLOv11N model weights
+├── test.py                     # Script to run inference and evaluation
+└── README.md                   # Project description
+```
 
-markdown
-Copy
-Edit
 
 ## 🚀 How to Use
 
